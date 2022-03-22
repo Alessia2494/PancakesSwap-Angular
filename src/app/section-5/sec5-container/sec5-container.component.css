@@ -1,0 +1,15 @@
+.section-5 {
+    background: linear-gradient(rgb(111, 182, 241) 0%, rgb(234, 242, 246) 100%);
+    padding: 48px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 16px;
+    border: 1px solid rgb(231, 227, 235);
+    border-radius: 72px;
+    width: 100%;
+    max-width: 960px;
+}

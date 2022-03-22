@@ -1,0 +1,64 @@
+.minicard-indigo {
+    width: 288px;
+    border-radius: 25px;
+    background: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
+    border: solid 1px #3c1786;
+    box-shadow: 2px 7px #3c1786;
+    transform: rotate(2deg);
+    margin: 12px;
+    color: #FFF;
+}
+
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+}
+
+.card-text-container .pre-title {
+    font-weight: 600;
+}
+
+.card-title {
+    color: #FFB245;
+}
+
+.card-icon {
+    position: absolute;
+    right: 6%;
+    top: 6%;
+    padding: 0;
+}
+
+.lottery-icon {
+    fill: #FFF;
+}
+
+.card-title {
+    margin: 8px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card-text1 {
+    margin: 0 0 24px;
+    font-weight: 600;
+}
+
+.card-text2 {
+    margin: 0 0 40px;
+    font-weight: 400;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-svg {
+    fill: #FFF;
+    padding: 0;
+    font-weight: 600;
+    margin-left: 5px;
+}
