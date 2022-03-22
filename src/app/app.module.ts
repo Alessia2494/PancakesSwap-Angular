@@ -6,6 +6,9 @@ import { Sec5ContainerComponent } from './section-5/sec5-container/sec5-containe
 import { Sec5ContentComponent } from './section-5/sec5-content/sec5-content.component';
 import { Sec5CardOrangeComponent } from './section-5/sec5-card-orange/sec5-card-orange.component';
 import { Sec5CardIndigoComponent } from './section-5/sec5-card-indigo/sec5-card-indigo.component';
+import { Sec6ContainerComponent } from './section-6/sec6-container/sec6-container.component';
+import { Sec6StatisticsComponent } from './section-6/sec6-statistics/sec6-statistics.component';
+import { Sec6MainContentComponent } from './section-6/sec6-main-content/sec6-main-content.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { Sec5CardIndigoComponent } from './section-5/sec5-card-indigo/sec5-card-
     Sec5ContainerComponent,
     Sec5ContentComponent,
     Sec5CardOrangeComponent,
-    Sec5CardIndigoComponent
+    Sec5CardIndigoComponent,
+    Sec6ContainerComponent,
+    Sec6StatisticsComponent,
+    Sec6MainContentComponent,
   ],
   imports: [
     BrowserModule

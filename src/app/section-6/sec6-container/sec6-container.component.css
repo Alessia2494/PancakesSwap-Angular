@@ -1,0 +1,10 @@
+.section-6 {
+    padding: 48px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 968px;
+}
