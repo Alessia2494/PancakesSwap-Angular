@@ -1,0 +1,290 @@
+/* navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: orange;
+    min-height: 55px;
+}
+.dx {
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+/* dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(122, 110, 170);
+    padding: 14px 16px;
+    background: inherit;
+    font-family: inherit;
+    margin: 0;
+    /* importante per vertical align su mobile */
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    transition-delay: 0.2s ease;
+    opacity: 0.6;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    border-radius: 20px;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* link dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:first-child {
+    border-top-left-radius: 20px;
+}
+.dropdown-content a:last-child {
+    border-bottom-left-radius: 20px;
+}
+/* background dropdown */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sx{
+    display: block;
+}
+
+@media screen and (max-width:550px){
+
+    .sx a{
+        display:none;
+    }
+
+}
+/*da csshome*/
+.navbar {
+    background-color: white;
+    height: 55px;
+}
+.sx {
+   position:absolute;
+   padding-left: 200px;
+}
+.dx {
+    float:right;
+    margin-right: 10px;
+}
+.dropbtn p{
+    color: rgb(122, 110, 170);
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+}
+.dropbtn p:hover {
+    background-color: rgb(239, 244, 245);
+    height: 35px;
+    width: 50px;
+    border-radius: 12px;
+    color: rgb(122, 110, 170);
+}
+.dropdown-content a {
+    color: rgb(122, 110, 170);
+}
+
+.logo1_bunnyH {
+    margin: 10px 5px;
+}
+.leaderboard {
+    border-top: 1px solid rgb(205, 208, 209);
+    border-bottom: 1px solid rgb(205, 208, 209);
+}
+.exit_img {
+    align-items: center;
+    float: right;
+}
+.impostazioni {
+    margin-right:8px;
+}
+.world {
+    margin-right: 8px;
+    padding: 0px 14px 0px 8px;
+}
+.logo1_blue{
+    margin-right: 8px;
+}
+.dx p {
+    color: rgb(122, 110, 170);
+}
+.change-num {
+    margin-right:12px;
+    padding-bottom: 3px;
+}
+/*media 500*/
+@media (max-width: 768px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .logo1_bunnyHs{
+        margin: 10px 0px;
+        width: 50px;
+        overflow:hidden;
+    }
+    .sx {
+       /* width:10px; */
+       display: none;
+       overflow:hidden;
+       padding:0px;
+       position:inherit;
+    }
+    .dropbtn p{
+        color: rgb(122, 110, 170);
+        transition-duration: 0.2s;
+        float:inline-start;
+    }
+    .dropbtn p:hover {
+        background-color: rgb(239, 244, 245);
+        border-radius: 12px;
+        color: rgb(122, 110, 170);
+    }
+    .dropdown-content a {
+        color: rgb(122, 110, 170);
+    }
+    
+    .leaderboard {
+        border-top: 1px solid rgb(205, 208, 209);
+        border-bottom: 1px solid rgb(205, 208, 209);
+    }
+    .exit_img {
+        align-items: center;
+        float: right;
+    }
+    .impostazioni {
+        margin-right:8px;
+    }
+    .world {
+        margin-right: 8px;
+        padding: 0px 14px 0px 8px;
+    }
+    .dx p {
+        color: rgb(122, 110, 170);
+    }
+    .change-num {
+        width:1px;
+        overflow:hidden;
+        padding:0px;
+        position:inherit;
+    }
+    .proval {
+        width:0.1px;
+        overflow:hidden;
+        padding:0px;
+        position:inherit;
+    }
+    .prova .dropbtn{
+        padding:0px;
+        width: 30px;
+        height: 32px;
+    }
+    .prova2 a {
+        padding-right: 0px;
+    }
+}
+/*media 768*/
+@media (max-width: 1000px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .dropbtn p{
+        color: rgb(122, 110, 170);
+        transition-duration: 0.2s;
+        float:inline-start;
+    }
+    .dropbtn p:hover {
+        background-color: rgb(239, 244, 245);
+        border-radius: 12px;
+        color: rgb(122, 110, 170);
+    }
+    .dropdown-content a {
+        color: rgb(122, 110, 170);
+    }
+    
+    .leaderboard {
+        border-top: 1px solid rgb(205, 208, 209);
+        border-bottom: 1px solid rgb(205, 208, 209);
+    }
+    .exit_img {
+        align-items: center;
+        float: right;
+    }
+    .impostazioni {
+        margin-right:8px;
+    }
+    .world {
+        margin-right: 8px;
+        padding: 0px 5px 0px 8px;
+    }
+    .logo1_blue{
+        width: 24px;
+    }
+    .dx p {
+        color: rgb(122, 110, 170);
+    }
+    .change-num {
+        margin-right:10px;
+        margin-left:10px;
+        padding-bottom: 3px;
+    }
+    .proval {
+        width:24px;
+        padding:0px;
+    }
+    .dropdown .dropbtn {
+        padding: 14px 8px 14px 8px;
+    }
+    .proval {
+        width:0.1px;
+        overflow:hidden;
+        padding:0px;
+        position:inherit;
+    }
+    .prova .dropbtn{
+        padding:0px;
+        width: 30px;
+        height: 32px;
+    }
+    .prova2 a {
+        padding-right: 0px;
+    }
+}

@@ -1,7 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
+/*thypography*/
 :root {
     font-family: 'Kanit', sans-serif;
     font-size: 1rem;
+}
+.font-title {
+    font-size: 1rem;
+}
+
+.font-display-1 {
+    font-size: 4rem;
+}
+
+.font-display-2 {
+    font-size: 2.50rem;
+}
+
+.font-display-3 {
+    font-size: 1.25rem;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 950px) {
+    .font-title {
+        display: none;
+    }
+
+    .font-display-1 {
+        font-size: 3rem;
+    }
+    
+    .font-display-2 {
+        font-size: 2rem;
+    }
+    
+}
+
+/*colors*/
+.black-title {
+    color: black;
+}
+
+.white-title{
+    color: white;
+}
+
+.color-text-indigo {
+    color: #9a6aff;
+}
+
+.color-text-purple {
+    color: rgb(122, 110, 170);
+}
+
+.color-text-white {
+    color: rgb(255, 255, 255);
+}
+
+.color-text-cyan {
+    color: rgb(31, 199, 212);
+}
+
+.color-text-pink {
+    color: rgb(237, 75, 158);
+}
+
+.color-text-orange {
+    color: rgb(255, 178, 55);
+}
+
+.color-display-1 {
+    color: rgb(118, 69, 217);
+}
+
+.color-display-2 {
+    color: rgb(40, 13, 95);
+}
+
+.decoration-link {
+    text-decoration: none;
+}
+
+.decoration-link:hover {
+    text-decoration: underline;
+}
+
+.bgcolor-black {
+    background-color: #27262c;
+}
+
+/*buttons*/
+.btn{
+    cursor: pointer;
+    min-height: 48px;
+    min-width: auto;
+    border-radius: 16px;
+    color: black;
+    font-weight: 600;
+    border: 0px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    padding:0 24px;
+}
+.btn-nor{
+    background-color: rgb(31, 199, 212);
+    color: white;
+    box-shadow:rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+}
+
+.btn:hover{
+    transition-delay: 0.2s ease;
+    opacity:0.6;
+
+}
+.btn-alt{
+    background-color: transparent;
+    color:rgb(31, 199, 212);
+    border: 2px solid rgb(31, 199, 212);
+}
+.btn-sb{
+    min-height: 32px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+    box-shadow:rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
 }

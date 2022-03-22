@@ -6,6 +6,7 @@ import { Sec5ContainerComponent } from './section-5/sec5-container/sec5-containe
 import { Sec5ContentComponent } from './section-5/sec5-content/sec5-content.component';
 import { Sec5CardOrangeComponent } from './section-5/sec5-card-orange/sec5-card-orange.component';
 import { Sec5CardIndigoComponent } from './section-5/sec5-card-indigo/sec5-card-indigo.component';
+import { NavbarComponent } from './navbar/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { Sec5CardIndigoComponent } from './section-5/sec5-card-indigo/sec5-card-
     Sec5ContainerComponent,
     Sec5ContentComponent,
     Sec5CardOrangeComponent,
-    Sec5CardIndigoComponent
+    Sec5CardIndigoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
