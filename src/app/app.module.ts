@@ -10,6 +10,8 @@ import { NavbarComponent } from './navbar/navbar/navbar.component';
 import { Sec6ContainerComponent } from './section-6/sec6-container/sec6-container.component';
 import { Sec6StatisticsComponent } from './section-6/sec6-statistics/sec6-statistics.component';
 import { Sec6MainContentComponent } from './section-6/sec6-main-content/sec6-main-content.component';
+import { FooterComponent } from './footer/footer.component';
+import { PreFooterComponent } from './pre-footer/pre-footer.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { Sec6MainContentComponent } from './section-6/sec6-main-content/sec6-mai
     NavbarComponent,
     Sec6ContainerComponent,
     Sec6StatisticsComponent,
-    Sec6MainContentComponent
+    Sec6MainContentComponent,
+    FooterComponent,
+    PreFooterComponent
   ],
   imports: [
     BrowserModule

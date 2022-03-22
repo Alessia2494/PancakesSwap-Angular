@@ -1,0 +1,196 @@
+.pre-footer-container {
+    display: flex;
+    background-color: #6231c3;
+    justify-content: space-around;
+    height: 428px;
+}
+
+.cont1-prefoot {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 80vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+
+}
+
+.cont1-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.ul-footer {
+    padding: 0;
+}
+
+.li-footer {
+    margin: 10px;
+}
+
+.cont2-foot {
+    align-self: flex-start;
+    height: 55px;
+    width: 100%;
+    border-bottom: solid 1px gray;
+    margin-top: 10px;
+}
+
+.cont3-foot {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.foot-subcont1 {
+    display: flex;
+    align-items: center;
+}
+
+.foot-subcont2 {
+    display: flex;
+    align-items: center;
+
+}
+
+/* fine footer  */
+/* Inizio footer image */
+.pancake-container-1 {
+    height: 256px;
+    width: 256px;
+}
+
+.pancake-1 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+
+.pancake-2 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+
+.pancake-3 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+
+.pancake-container-2 {
+    height: 256px;
+    width: 256px;
+}
+
+.pancake-4 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+
+.pancake-5 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+
+.pancake-6 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+
+.svg-format {
+    height: 24px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.svg-format2 {
+    display: none;
+    height: 24px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.mini-svg {
+    margin: 10px;
+}
+
+.icon-svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 10px;
+}
+
+#svg-value {
+    margin-right: 10px;
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .pancake-1, .pancake-2, .pancake-3, .pancake-4, .pancake-5, .pancake-6, .pancake-container-1, .pancake-container-2 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .cont1-foot {
+        flex-direction: column;
+        order: 2;
+    }
+
+    .cont2-foot {
+        order: 3;
+    }
+
+    .cont3-foot {
+        order: 1;
+        flex-wrap: wrap;
+    }
+
+    .svg-format {
+        display: none;
+    }
+
+    .svg-format2 {
+        display: block;
+    }
+
+    .foot-subcont1 {
+        order: 2;
+    }
+
+    .foot-subcont2 {
+        order: 1;
+        width: 500px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+
+    #svg-value {
+        margin-right: 260px;
+    }
+
+}
