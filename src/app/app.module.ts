@@ -12,6 +12,7 @@ import { Sec6StatisticsComponent } from './section-6/sec6-statistics/sec6-statis
 import { Sec6MainContentComponent } from './section-6/sec6-main-content/sec6-main-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { PreFooterComponent } from './pre-footer/pre-footer.component';
+import { Section1Component } from './section1/section1.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PreFooterComponent } from './pre-footer/pre-footer.component';
     Sec6StatisticsComponent,
     Sec6MainContentComponent,
     FooterComponent,
-    PreFooterComponent
+    PreFooterComponent,
+    Section1Component
   ],
   imports: [
     BrowserModule
