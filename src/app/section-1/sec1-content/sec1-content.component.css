@@ -42,8 +42,6 @@
 
 /*MEDIA*/
 
-/*media 768*/
-
 @media (max-width: 1000px) {
     .flex-container {
         display:flex;
@@ -140,109 +138,106 @@
     .home {
         margin-right: 8px;
     } 
-  
+    .navbar {
+        background-color: white;
+        height: 55px;
+    }
+    .sx {
+       position:absolute;
+       padding-left: 200px;
+    }
+    .dx {
+        float:right;
+        margin-right: 10px;
+    }
+    .dropbtn p{
+        color: rgb(122, 110, 170);
+        transition-duration: 0.2s;
+        box-sizing: border-box;
+    }
+    .dropbtn p:hover {
+        background-color: rgb(239, 244, 245);
+        height: 35px;
+        width: 50px;
+        border-radius: 12px;
+        color: rgb(122, 110, 170);
+    }
+    .dropdown-content a {
+        color: rgb(122, 110, 170);
+    }
+    
+    .logo1_bunnyH {
+        margin: 10px 5px;
+    }
+    .leaderboard {
+        border-top: 1px solid rgb(205, 208, 209);
+        border-bottom: 1px solid rgb(205, 208, 209);
+    }
+    .exit_img {
+        align-items: center;
+        float: right;
+    }
+    .impostazioni {
+        margin-right:8px;
+    }
+    .world {
+        margin-right: 8px;
+        padding: 0px 14px 0px 8px;
+    }
+    .logo1_blue{
+        margin-right: 8px;
+    }
+    .dx p {
+        color: rgb(122, 110, 170);
+    }
+    .change-num {
+        margin-right:12px;
+        padding-bottom: 3px;
+    }
+    .display_home_bg {
+        background-image: url(src/assets/home_img/sfondopancake2.png) ;
+        height: 100vh;
+        background-size: cover;
+        background-color: white;
+    }
+    
+    .home_hero{
+        display:flex;
+        justify-content: center;
+        padding-right: 350px;
+    }
+    
+    .text-home {
+        width: 576px;
+        height: 281px;
+        padding-top:190px;
+    }
+    .text-home h1 {
+        margin-bottom: 24px;
+        font-size: 64px;
+        font-weight: 600;
+    }
+    .text-home h2 {
+        margin: 0px 0px 24px 0px;
+        font-size:  20px;
+    }
+    .home {
+        margin-right: 8px;
+    }
+    .prova .dropbtn{
+        padding:0px;
+        width: 30px;
+        height: 32px;
+    }
+    .prova a {
+        padding:0px;
+        width: 25px;
+        height:25px;
+    }
+    .prova2 a {
+        padding-right: 0px;
+    }
 }
-.navbar {
-    background-color: white;
-    height: 55px;
-}
-.sx {
-   position:absolute;
-   padding-left: 200px;
-}
-.dx {
-    float:right;
-    margin-right: 10px;
-}
-.dropbtn p{
-    color: rgb(122, 110, 170);
-    transition-duration: 0.2s;
-    box-sizing: border-box;
-}
-.dropbtn p:hover {
-    background-color: rgb(239, 244, 245);
-    height: 35px;
-    width: 50px;
-    border-radius: 12px;
-    color: rgb(122, 110, 170);
-}
-.dropdown-content a {
-    color: rgb(122, 110, 170);
-}
-
-.logo1_bunnyH {
-    margin: 10px 5px;
-}
-.leaderboard {
-    border-top: 1px solid rgb(205, 208, 209);
-    border-bottom: 1px solid rgb(205, 208, 209);
-}
-.exit_img {
-    align-items: center;
-    float: right;
-}
-.impostazioni {
-    margin-right:8px;
-}
-.world {
-    margin-right: 8px;
-    padding: 0px 14px 0px 8px;
-}
-.logo1_blue{
-    margin-right: 8px;
-}
-.dx p {
-    color: rgb(122, 110, 170);
-}
-.change-num {
-    margin-right:12px;
-    padding-bottom: 3px;
-}
-.display_home_bg {
-    background-image: url(src/assets/home_img/sfondopancake2.png) ;
-    height: 100vh;
-    background-size: cover;
-    background-color: white;
-}
-
-.home_hero{
-    display:flex;
-    justify-content: center;
-    padding-right: 350px;
-}
-
-.text-home {
-    width: 576px;
-    height: 281px;
-    padding-top:190px;
-}
-.text-home h1 {
-    margin-bottom: 24px;
-    font-size: 64px;
-    font-weight: 600;
-}
-.text-home h2 {
-    margin: 0px 0px 24px 0px;
-    font-size:  20px;
-}
-.home {
-    margin-right: 8px;
-}
-.prova .dropbtn{
-    padding:0px;
-    width: 30px;
-    height: 32px;
-}
-.prova a {
-    padding:0px;
-    width: 25px;
-    height:25px;
-}
-.prova2 a {
-    padding-right: 0px;
-}
-
-/*media 500*/
 
 @media (max-width: 768px) {
     .flex-container {
@@ -348,112 +343,4 @@
     .home {
         margin-right: 8px;
     } 
-}
-
-/*media 768*/
-
-@media (max-width: 1000px) {
-    .flex-container {
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .navbar {
-        background-color: white;
-    }
-    .dropbtn p{
-        color: rgb(122, 110, 170);
-        transition-duration: 0.2s;
-        float:inline-start;
-    }
-    .dropbtn p:hover {
-        background-color: rgb(239, 244, 245);
-        border-radius: 12px;
-        color: rgb(122, 110, 170);
-    }
-    .dropdown-content a {
-        color: rgb(122, 110, 170);
-    }
-    
-    .leaderboard {
-        border-top: 1px solid rgb(205, 208, 209);
-        border-bottom: 1px solid rgb(205, 208, 209);
-    }
-    .exit_img {
-        align-items: center;
-        float: right;
-    }
-    .impostazioni {
-        margin-right:8px;
-    }
-    .world {
-        margin-right: 8px;
-        padding: 0px 5px 0px 8px;
-    }
-    .logo1_blue{
-        width: 24px;
-    }
-    .dx p {
-        color: rgb(122, 110, 170);
-    }
-    .change-num {
-        margin-right:10px;
-        margin-left:10px;
-        padding-bottom: 3px;
-    }
-    .proval {
-        width:24px;
-        padding:0px;
-    }
-    .dropdown .dropbtn {
-        padding: 14px 8px 14px 8px;
-    }
-    .prova .dropbtn{
-        padding:0px;
-        width: 30px;
-        height: 32px;
-    }
-    .prova2 a {
-        padding-right: 0px;
-    }
-    .display_home_bg {
-        background-image: url(src/assets/home_img/sfondopancake2.png) ;
-        background-size: 500px;
-        padding:0px;
-        height: 500px;
-        background-size: cover;
-        background-color: white;
-        display:flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-    }
-    .animation {
-        position:absolute;
-        top: -5px;
-        padding-top:50px;
-        right:230px;
-        
-    }
-    
-    .text-home {
-        width: 450px;
-        height: 106px;
-        padding-top: 30px;
-        padding-left: 30px;
-        text-align: center;
-        position:relative;
-    }
-    .text-home h1 {
-        margin-bottom: 24px;
-        font-size: 48px;
-        font-weight: 600;
-    }
-    .text-home h2 {
-        margin: 0px 0px 24px 0px;
-        font-size:  20px;
-    }
-    .home {
-        margin-right: 8px;
-    } 
-  
 }
