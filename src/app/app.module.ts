@@ -12,7 +12,9 @@ import { Sec6StatisticsComponent } from './section-6/sec6-statistics/sec6-statis
 import { Sec6MainContentComponent } from './section-6/sec6-main-content/sec6-main-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { PreFooterComponent } from './pre-footer/pre-footer.component';
-
+import { Sec1ContainerComponent } from './section-1/sec1-container/sec1-container.component';
+import { Sec1ContentComponent } from './section-1/sec1-content/sec1-content.component';
+import { AnimationLunarbunnyComponent } from './section-1/animation-lunarbunny/animation-lunarbunny.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,10 @@ import { PreFooterComponent } from './pre-footer/pre-footer.component';
     Sec6StatisticsComponent,
     Sec6MainContentComponent,
     FooterComponent,
-    PreFooterComponent
+    PreFooterComponent,
+    Sec1ContainerComponent,
+    Sec1ContentComponent,
+    AnimationLunarbunnyComponent,
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,179 @@
+.lunar-bunny {
+    /*padding-top: 190px;*/
+    /*padding-right:50px;*/
+    animation: imganim4 3.5s infinite linear both;
+}
+.star-l {
+    padding-top: 190px;
+}
+.star-r {
+    padding-top: 190px;
+}
+.star-top-r {
+    padding-top: 190px;
+}
+.lunar_bunnyPos {
+    position:absolute;
+}
+.home_hero{
+    display:flex;
+    justify-content: center;
+    padding-right: 350px;
+}
+.animation {
+    position: relative;
+    margin-top: 15px;
+}
+.star-l {
+    animation: imganim 2s infinite linear both;
+}
+.star-r {
+    animation: imganim2 5s infinite linear both;
+}
+.star-top-r {
+    animation: imganim3 2.5s infinite linear both;
+}
+.star-lPos {
+    position: absolute;
+}
+.star-rPos {
+    position:absolute;
+}
+.star-top-rPos {
+    position:absolute;
+}
+@keyframes imganim {
+    0% {width: 512px; height: 512px; opacity: 1}
+    50% {width: 507px; height: 507px; opacity: 0}
+    100% {width: 512px; height: 512px; opacity:1}
+}
+@keyframes imganim2 {
+    0% {width: 512px; height: 512px; opacity: 1}
+    50% {width: 507px; height: 507px; opacity: 0}
+    100% {width: 512px; height: 512px; opacity: 1}
+}
+@keyframes imganim3 {
+    0% {width: 512px; height: 512px; opacity:1}
+    50% {width: 507px; height: 507px; opacity: 0}
+    100% {width: 512px; height: 512px; opacity:1}
+}
+@keyframes imganim4 {
+    0% {width: 512px; height: 512px;}
+    50% {width: 507px; height: 507px;}
+    100% {width: 512px; height: 512px;}
+}
+
+/*MEDIA*/
+@media (max-width: 1000px) {
+    .animation {
+        position:absolute;
+        top: -5px;
+        padding-top:50px;
+        right:230px;
+        
+    }
+    .lunar-bunny {
+        padding-top: 50px;
+        width: 192px;
+        height: 192px;
+        animation: imganim4 3.5s infinite linear both;
+    }
+    .star-l {
+        padding-top: 50px;
+        animation: imganim 2s infinite linear both;
+    }
+    .star-r {
+        padding-top: 50px;
+        animation: imganim2 5s infinite linear both;
+    }
+    .star-top-r {
+        padding-top: 50px;
+        animation: imganim3 2.5s infinite linear both;
+    }
+    @keyframes imganim {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim2 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim3 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim4 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+    .lunar-bunny {
+        padding-top: 190px;
+        padding-right:50px;
+        animation: imganim4 3.5s infinite linear both;
+    }
+    .star-l {
+        padding-top: 190px;
+    }
+    .star-r {
+        padding-top: 190px;
+    }
+    .star-top-r {
+        padding-top: 190px;
+    }
+    .lunar_bunnyPos {
+        position:absolute;
+    }
+ }
+
+@media (max-width: 768px) { 
+    .animation {
+        position:absolute;
+        top: -10px;
+        padding-top:50px;
+        right:230px;
+        
+    }
+    .lunar-bunny {
+        padding-top: 50px;
+        width: 192px;
+        height: 192px;
+        animation: imganim4 3.5s infinite linear both;
+    }
+    .star-l {
+        padding-top: 50px;
+        animation: imganim 2s infinite linear both;
+    }
+    .star-r {
+        padding-top: 50px;
+        animation: imganim2 5s infinite linear both;
+    }
+    .star-top-r {
+        padding-top: 50px;
+        animation: imganim3 2.5s infinite linear both;
+    }
+    @keyframes imganim {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim2 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim3 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim4 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+}
+
