@@ -1,0 +1,12 @@
+.container-part4 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.part-4 {
+    background-image: url("src/assets/home_img/bgpt3.jpg");
+    background-size: cover;
+}

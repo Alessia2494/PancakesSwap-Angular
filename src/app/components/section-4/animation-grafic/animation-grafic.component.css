@@ -1,0 +1,209 @@
+#grafico-torta {
+    z-index: 1;
+    position: relative;
+    max-width: 550px;
+    right: 100px;
+}
+
+#grafico-lineare {
+    z-index: 2;
+    position: relative;
+    max-width: 550px;
+    right: 100px;
+    bottom: 600px;
+
+}
+
+#cartella-coin {
+    z-index: 3;
+    max-width: 550px;
+    position: relative;
+    right: 100px;
+    bottom: 1130px;
+
+}
+.pictures {
+    max-width: 500px;
+    max-height: 428px;
+    box-sizing: border-box;
+}
+
+.pictures {
+    max-height: 100px;
+}
+
+@keyframes img550-1 {
+    0% {width: 550px; height: 549px;}
+    50% {width: 545px; height: 544px;}
+    100% {width: 550px; height: 549px;}
+}
+@keyframes img550-2 {
+    0% {width: 550px; height: 536px;}
+    50% {width: 545px; height: 531px;}
+    100% {width: 550px; height: 536px;}
+}
+@keyframes img550-3 {
+    0% {width: 550px; height: 570px;}
+    50% {width: 545px; height: 565px;}
+    100% {width: 550px; height: 570px;}
+}
+.animation5501 {
+
+    animation: img550-1 2s infinite linear both;
+
+}
+.animation5502 {
+
+    animation: img550-2 5s infinite linear both;
+
+}
+.animation5503 {
+
+    animation: img550-3 2.5s infinite linear both;
+
+}
+
+@media screen and (max-width: 768px) {
+    .pictures {
+        max-width: 100%;
+        position: relative;
+        right: 50px;
+        max-height: 100px;
+    }
+    .divisore {
+        flex-direction: column;
+    }
+
+    .divisore .parte-sx {
+        order: 2;
+    }
+
+    .divisore .parte-dx {
+        max-width: 100%;
+    }
+    .divisore .parte-dx .pictures {
+        position: relative;
+    }
+
+    .divisore .parte-sx .pictures {
+        position: relative;
+    }
+
+    .divisore .parte-sx, .divisore .parte-dx {
+        margin-left: 15px;
+    }
+    #grafico-torta, #grafico-lineare, #cartella-coin {
+        max-width: 200px;
+        max-height: 200px;
+        position: absolute;
+    }
+
+    #grafico-lineare {
+        bottom: 0;
+        top: 10px;
+    }
+
+    #cartella-coin {
+        bottom: 0;
+        top: 10px;
+    }
+    @keyframes img512 {
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    @keyframes img450 {
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    @keyframes img550-1 {
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    @keyframes img550-2 {
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    @keyframes img550-3 {
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .animation5501 {
+
+        animation: img550-1 2s infinite linear both;
+    
+    }
+    .animation5502 {
+    
+        animation: img550-2 5s infinite linear both;
+    
+    }
+    .animation5503 {
+    
+        animation: img550-3 2.5s infinite linear both;
+    
+    }
+}
