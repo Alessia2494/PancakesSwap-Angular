@@ -15,6 +15,7 @@ import { PreFooterComponent } from './pre-footer/pre-footer.component';
 import { Sec1ContainerComponent } from './section-1/sec1-container/sec1-container.component';
 import { Sec1ContentComponent } from './section-1/sec1-content/sec1-content.component';
 import { AnimationLunarbunnyComponent } from './section-1/animation-lunarbunny/animation-lunarbunny.component';
+import { SectionN2Component } from './section-2/section-n2/section-n2.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AnimationLunarbunnyComponent } from './section-1/animation-lunarbunny/a
     Sec1ContainerComponent,
     Sec1ContentComponent,
     AnimationLunarbunnyComponent,
+    SectionN2Component,
   ],
   imports: [
     BrowserModule
