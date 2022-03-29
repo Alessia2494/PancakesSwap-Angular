@@ -16,6 +16,9 @@ import { Sec1ContainerComponent } from './components/section-1/sec1-container/se
 import { Sec1ContentComponent } from './components/section-1/sec1-content/sec1-content.component';
 import { AnimationLunarbunnyComponent } from './components/section-1/animation-lunarbunny/animation-lunarbunny.component';
 import { SectionN2Component } from './components/section-2/section-n2/section-n2.component';
+import { Sec4ContainerComponent } from './components/section-4/sec4-container/sec4-container.component';
+import { Sec4ContentComponent } from './components/section-4/sec4-content/sec4-content.component';
+import { AnimationGraficComponent } from './components/section-4/animation-grafic/animation-grafic.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { SectionN2Component } from './components/section-2/section-n2/section-n2
     Sec1ContentComponent,
     AnimationLunarbunnyComponent,
     SectionN2Component,
+    Sec4ContainerComponent,
+    Sec4ContentComponent,
+    AnimationGraficComponent,
   ],
   imports: [
     BrowserModule
