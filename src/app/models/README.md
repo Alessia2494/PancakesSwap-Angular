@@ -1,0 +1,1 @@
+In questa cartella mettere tutti i file ts delle interfacce degli oggetti!
