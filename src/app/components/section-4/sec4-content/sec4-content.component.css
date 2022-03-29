@@ -1,0 +1,50 @@
+.ahref {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #1FC7D4;
+    font-weight: 600;
+    text-decoration: none;
+}
+.ahref:hover {
+    text-decoration: underline;
+}
+.parte-dx h3 {
+    font-size: 45px;
+}
+.divisore {
+    display: flex;
+    margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .divisore {
+        flex-direction: column;
+    }
+    .divisore .parte-sx {
+        order: 2;
+    }
+    .divisore .parte-dx {
+        max-width: 100%;
+    }
+    .divisore .parte-dx .pictures {
+        position: relative;
+    }
+    
+    .divisore .parte-sx .pictures {
+        position: relative;
+    }
+    
+    .divisore .parte-sx, .divisore .parte-dx {
+        margin-left: 15px;
+    }
+    .ahref {
+        padding-left: 15px;
+        font-size: 16px;
+        color: #1FC7D4;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .ahref:hover {
+        text-decoration: underline;
+    }
+}
