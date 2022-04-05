@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { card } from 'src/app/models/modelSection2';
 
 @Component({
   selector: 'app-section-n2',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionN2Component implements OnInit {
 
-  cards=[
+  cards:card[]=[
     {
       img: "../../../assets/reference-img/people.png",
       h1: "4 million",
