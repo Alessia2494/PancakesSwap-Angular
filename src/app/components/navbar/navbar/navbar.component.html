@@ -7,8 +7,7 @@
                 Trade
             </button>
             <div class="dropdown-content">
-                <a href="#">Exchange</a>
-                <a href="#">Liquidity</a>
+                <a href="#" *ngFor="let trade of trades;">{{ trade.trade}}</a>
             </div>
         </div>
         <!--link2-->
@@ -17,9 +16,7 @@
                 Earn
             </button>
             <div class="dropdown-content">
-                <a href="#">Farms</a>
-                <a href="#">Forms</a>
-                <a href="#">Pools</a>
+                <a href="#" *ngFor="let earn of earns;">{{ earn.earn}}</a>
             </div>
         </div>
         <!--link3-->
@@ -28,9 +25,7 @@
                 Win
             </button>
             <div class="dropdown-content">
-                <a href="#">Trading Competition</a>
-                <a href="#">Prediction (BETA)</a>
-                <a href="#">Lottery</a>
+                <a href="#" *ngFor="let win of wins;">{{ win.win}}</a>
             </div>
         </div>
         <!--link4-->
@@ -39,9 +34,7 @@
                 NFT
             </button>
             <div class="dropdown-content">
-                <a href="#">Overview</a>
-                <a href="#">Collections</a>
-                <a href="#">Activity</a>
+                <a href="#"*ngFor="let nft of nfts;">{{ nft.nft}}</a>
             </div>
         </div>
         <!--link5-->
@@ -50,12 +43,9 @@
                 ...
             </button>
             <div class="dropdown-content">
-                <a href="#">Info</a>
-                <a href="#">IFO</a>
-                <a href="#">Voting</a>
+                <a href="#" *ngFor="let other of others;">{{ other.other}}</a>
                 <a href="#" class="leaderboard">Leaderboard</a>
-                <a href="#">Blog <img src="assets/home_img/exit-img.png" class="exit_img" /></a>
-                <a href="#">Docs <img src="assets/home_img/exit-img.png" class="exit_img" /></a>
+                <a href="#" *ngFor="let another of anothers;">{{ another.another}} <img src="{{ another.img }}" class="exit_img" /></a>
             </div>
         </div>
 

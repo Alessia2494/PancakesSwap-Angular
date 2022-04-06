@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { language } from 'src/app/models/modelNavbar';
+import { language, trade, earn, win, nft, other, another } from 'src/app/models/modelNavbar';
 
 @Component({
   selector: 'app-navbar',
@@ -94,7 +94,68 @@ export class NavbarComponent implements OnInit {
     linguage:"繁體中文"
    }
  ]
-
+ trades:trade[]=[
+   {
+     trade: "Exchange"
+   },
+   {
+    trade: "Liquidity"
+  },
+ ]
+ earns:earn[] = [
+  {
+    earn: "Farms"
+  },
+  {
+    earn: "Forms"
+  },
+  {
+    earn: "Pools"
+  }
+ ]
+ wins:win[] = [
+  {
+    win:"Trading Competition"
+  },
+  {
+   win: "Prediction (BETA)"
+  },
+  {
+   win: "Lottery"
+  }
+ ]
+ nfts: nft[] = [
+  {
+    nft: "Overview"
+  },
+  {
+    nft: "Collections"
+  },
+  {
+    nft:"Activity"
+  }
+ ]
+ others:other[] = [
+  {
+    other: "Info"
+  },
+  {
+    other: "IFO"
+  },
+  {
+    other:"Voting"
+  },
+ ]
+ anothers: another[] = [
+  {
+    another:"Blog",
+    img: "assets/home_img/exit-img.png"
+  },
+  {
+    another:"Docs",
+    img: "assets/home_img/exit-img.png"
+  }
+ ]
   constructor() { }
 
   ngOnInit(): void {
