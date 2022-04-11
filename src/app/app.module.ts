@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { Sec5ContainerComponent } from './components/section-5/sec5-container/sec5-container.component';
 import { Sec5ContentComponent } from './components/section-5/sec5-content/sec5-content.component';
@@ -22,6 +21,7 @@ import { AnimationGraficComponent } from './components/section-4/animation-grafi
 import { Sec3AssetsComponent} from './components/section-3/sec3-assets/sec3-assets.component';
 import { Sec3ContainerComponent } from './components/section-3/sec3-container/sec3-container.component';
 import { Sec3ContentComponent } from './components/section-3/sec3-content/sec3-content.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -48,7 +48,8 @@ import { Sec3ContentComponent } from './components/section-3/sec3-content/sec3-c
     Sec3ContentComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
