@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Statistic } from 'src/app/models/statistics';
+import { Statistic } from 'src/app/models/Statistics';
 
 @Component({
   selector: 'app-sec6-statistics',
