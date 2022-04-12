@@ -97,3 +97,65 @@ img {
         right: 10px;
     }
 }
+
+/* ANIMAZIONI */
+@keyframes img400-1 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(6px, 12px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes img400-2 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 21px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes img400-3 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 18px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes img400-4 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 18px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.animation4001 {
+    animation: img400-1 3s ease-in-out 0.66s infinite normal;
+}
+
+.animation4002 {
+    animation: img400-2 3s ease-in-out 0.8s infinite normal;
+}
+
+.animation4003 {
+    animation: img400-3 3s ease-in-out 1.2s infinite normal;
+}
+
+.animation4004 {
+    animation: img400-4 3s ease-in-out 1s infinite normal;
+}
