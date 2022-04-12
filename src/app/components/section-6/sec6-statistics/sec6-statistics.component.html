@@ -1,18 +1,6 @@
 <div class="container">
-    <div class="cell" id="first-cell">
-        <div class="cell-title">Total Supply</div>
-        <div class="cell-value"><span>263,602,749</span></div>
-    </div>
-    <div class="cell">
-        <div class="cell-title">Burned to date</div>
-        <div class="cell-value"><span>359,363,904</span></div>
-    </div>
-    <div class="cell">
-        <div class="cell-title">Market Cap</div>
-        <div class="cell-value"><span>$2 billion</span></div>
-    </div>
-    <div class="cell">
-        <div class="cell-title">Current Emissions</div>
-        <div class="cell-value"><span>14.25/block</span></div>
+    <div *ngFor="let statistic of statistics; first as isFirst" class="cell" [class.first-cell]="isFirst">
+        <div class="cell-title">{{ statistic.title }} </div>
+        <div class="cell-value"><span>{{ statistic.value }} </span></div>
     </div>
 </div>
