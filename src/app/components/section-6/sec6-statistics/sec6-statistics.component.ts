@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Observable, Subscription } from 'rxjs';
 import { Statistic } from 'src/app/models/Statistics';
+import { StatisticService } from '../statistic.service';
 
 @Component({
   selector: 'app-sec6-statistics',
@@ -8,16 +10,12 @@ import { Statistic } from 'src/app/models/Statistics';
 })
 export class Sec6StatisticsComponent implements OnInit {
 
-  statistics: Statistic[] = [
-    { title: 'Total supply', value: '284,570,158' },
-    { title: 'Burned to date', value: '426,692,888' },
-    { title: 'Market cap', value: '$2.3 billion' },
-    { title: 'Current emissions', value: '14.25/block' }
-  ]
+  statistic$!: Observable<Statistic[]>
 
-  constructor() { }
+  constructor(private statisticService: StatisticService) { }
 
   ngOnInit(): void {
+    this.statistic$ = this.statisticService.getAll()
   }
-
+  
 }
