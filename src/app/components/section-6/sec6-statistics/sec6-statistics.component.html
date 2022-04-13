@@ -1,6 +1,8 @@
 <div class="container">
-    <div *ngFor="let statistic of statistics; first as isFirst" class="cell" [class.first-cell]="isFirst">
-        <div class="cell-title">{{ statistic.title }} </div>
-        <div class="cell-value"><span>{{ statistic.value }} </span></div>
-    </div>
+    <ng-container *ngIf="statistic$ | async as statistics">
+        <div *ngFor="let statistic of statistics; first as isFirst" class="cell" [class.first-cell]="isFirst">
+            <div class="cell-title">{{ statistic.title }} </div>
+            <div class="cell-value"><span>{{ statistic.value }} </span></div>
+        </div>
+    </ng-container>
 </div>

@@ -1,4 +1,3 @@
-
 .container {
     display: grid;
     margin-top: 25px;
@@ -6,22 +5,11 @@
     gap: 16px;
 }
 
-@media screen and (min-width: 852px) {
-    .container {
-        gap: 32px;
-        grid-template-columns: repeat(4, auto);
-    }
-}
-
 .cell {
     display: flex;
     flex-direction: column;
     border-left: 1px solid rgb(215, 202, 236);
     padding: 0 16px;
-}
-
-.first-cell {
-    padding: 0;
 }
 
 .cell-title {
@@ -33,4 +21,15 @@
 .cell-value {
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+@media screen and (min-width: 852px) {
+    .container {
+        gap: 32px;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .first-cell {
+        padding: 0;
+    }
 }
