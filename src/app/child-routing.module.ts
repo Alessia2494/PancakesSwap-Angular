@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule],
+  imports: [CommonModule,],
   exports: [RouterModule, AppRoutingModule]
 })
 export class ChildRoutingModule { }
