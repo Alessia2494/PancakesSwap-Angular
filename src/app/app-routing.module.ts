@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { ChildRoutingModule } from './child-routing.module';
+
+const ChildModule = () =>
+  import('./child-route-module/child.module').then((m) => m.ChildModule);
 
 const routes: Routes = [
   /*mettere qui le varie rotte con path*/
+  { path: 'child', loadChildren: ChildModule },
 
 
 ];
@@ -12,6 +15,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [CommonModule, RouterModule.forRoot(routes)],
-  exports: [RouterModule, ChildRoutingModule]
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
