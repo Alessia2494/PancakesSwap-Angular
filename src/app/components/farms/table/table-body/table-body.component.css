@@ -1,12 +1,42 @@
-
 .container {
-    width: 100vw;
+    max-width: 1200px;
+    margin: auto;
 }
+
+.table-container {
+    filter: drop-shadow(rgba(25, 19, 38, 0.15) 0px 1px 4px);
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 16px 0px;
+}
+
 table{
     margin: 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 
-td {
+tr {
+    border-bottom: 2px solid rgb(231, 227, 235);
+}
+
+.data-container {
     padding: 24px 32px 24px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    padding-left: 32px;
+}
+
+.data-title {
+    color: rgb(122, 110, 170);
+}
+
+.data-value {
+    color:rgb(40, 13, 95);
 }

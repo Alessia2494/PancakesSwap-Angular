@@ -1,15 +1,42 @@
 <div class="container">
-    <table>
-        <tbody>
-            <ng-container *ngIf="tableStatistic$ | async as statistics">
-                <tr *ngFor="let statistic of statistics">
-                    <td>{{ statistic.title | uppercase}}</td>
-                    <td>{{ statistic.earned }}</td>
-                    <td>{{ statistic.apr }}</td>
-                    <td>{{ statistic.liquidity }}</td>
-                    <td>{{ statistic.multiplier }}</td>
-                </tr>
-            </ng-container>
-        </tbody>
-    </table>
+    <div class="table-container">
+        <table>
+            <tbody>
+                <ng-container *ngIf="tableStatistic$ | async as statistics">
+                    <tr *ngFor="let statistic of statistics">
+                        <td>
+                            <div class="data-container" id="title">
+                                {{ statistic.title | uppercase}}
+                            </div>
+                        </td>
+                        <td>
+                            <div class="data-container">
+                                <div class="data-title">Earned</div>
+                                <div class="data-value">{{ statistic.earned }}</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="data-container">
+                                <div class="data-title">APR</div>
+                                <div class="data-value">{{ statistic.apr }}</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="data-container">
+                                <div class="data-title">Liquidity</div>
+                                <div class="data-value">{{ statistic.liquidity }}</div>
+                                
+                            </div>
+                        </td>
+                        <td>
+                            <div class="data-container">
+                                <div class="data-title">Multiplier</div>
+                                <div class="data-value">{{ statistic.multiplier }}</div>
+                            </div>
+                        </td>
+                    </tr>
+                </ng-container>
+            </tbody>
+        </table>
+    </div>
 </div>

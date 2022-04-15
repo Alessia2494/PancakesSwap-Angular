@@ -6,6 +6,7 @@ export interface trade {
 }
 export interface earn {
     earn:string;
+    link?: string
 }
 export interface win {
     win:string;

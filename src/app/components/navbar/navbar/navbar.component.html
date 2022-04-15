@@ -7,7 +7,7 @@
                 Trade
             </button>
             <div class="dropdown-content">
-                <a href="#" *ngFor="let trade of trades;">{{ trade.trade}}</a>
+                <a href="#" *ngFor="let trade of trades;">{{ trade.trade }}</a>
             </div>
         </div>
         <!--link2-->
@@ -16,7 +16,7 @@
                 Earn
             </button>
             <div class="dropdown-content">
-                <a href="#" *ngFor="let earn of earns;">{{ earn.earn}}</a>
+                <a href="#" *ngFor="let earn of earns;" [routerLink]="earn.link">{{ earn.earn }}</a>
             </div>
         </div>
         <!--link3-->

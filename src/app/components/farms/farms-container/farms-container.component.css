@@ -8,6 +8,15 @@
     justify-content: center;
 }
 
+.link {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
 button {
     border: 0;
     background-color: transparent;
@@ -16,12 +25,8 @@ button {
     align-items: center;
 }
 
-a {
-padding: 0px;
-}
-
 button svg {
-    fill:  rgb(31, 199, 212);
+    fill: rgb(31, 199, 212);
     margin-left: 5px;
 }
 
@@ -32,7 +37,7 @@ button svg {
 
 h1 {
     font-size: 64px;
-    color: rgb(118, 69, 217);   
+    color: rgb(118, 69, 217);
     margin: 0 0 24px;
 }
 
