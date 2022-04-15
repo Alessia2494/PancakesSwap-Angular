@@ -1,0 +1,12 @@
+
+.container {
+    width: 100vw;
+}
+table{
+    margin: 0;
+    width: 100%;
+}
+
+td {
+    padding: 24px 32px 24px 0;
+}

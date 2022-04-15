@@ -23,6 +23,8 @@ import { Sec3ContainerComponent } from './components/section-3/sec3-container/se
 import { Sec3ContentComponent } from './components/section-3/sec3-content/sec3-content.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ContainerHomeComponent } from './pages/container-home/container-home.component';
+import { FarmsContainerComponent } from './components/farms/farms-container/farms-container.component';
+import { TableBodyComponent } from './components/farms/table/table-body/table-body.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,8 @@ import { ContainerHomeComponent } from './pages/container-home/container-home.co
     Sec3AssetsComponent,
     Sec3ContentComponent,
     ContainerHomeComponent,
+    FarmsContainerComponent,
+    TableBodyComponent,
   ],
   imports: [
     BrowserModule,
