@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from '../app-routing.module';
 
-
+/*scrivere rotte child*/
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule,],
-  exports: [RouterModule, AppRoutingModule]
+  imports: [CommonModule,/*ruotermodule.forchild*/],
+  exports: [RouterModule,]
 })
 export class ChildRoutingModule { }
