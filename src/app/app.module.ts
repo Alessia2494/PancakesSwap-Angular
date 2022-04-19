@@ -25,6 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ContainerHomeComponent } from './pages/container-home/container-home.component';
 import { FarmsContainerComponent } from './components/farms/farms-container/farms-container.component';
 import { TableBodyComponent } from './components/farms/table/table-body/table-body.component';
+import { SectionTradeNowComponent } from './components/section-trade-now/section-trade-now.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { TableBodyComponent } from './components/farms/table/table-body/table-bo
     ContainerHomeComponent,
     FarmsContainerComponent,
     TableBodyComponent,
+    SectionTradeNowComponent,
   ],
   imports: [
     BrowserModule,
