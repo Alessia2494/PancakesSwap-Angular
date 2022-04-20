@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { ContainerHomeComponent } from './pages/container-home/container-home.component';
-import { FarmsContainerComponent } from './components/farms/farms-container/farms-container.component';
-import { SectionTradeNowComponent } from './components/section-trade-now/section-trade-now.component';
 
 const ChildModule = () =>
   import('./child-route-module/child.module').then((m) => m.ChildModule);
@@ -13,8 +11,6 @@ const routes: Routes = [
   { path: 'child', loadChildren: ChildModule },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: ContainerHomeComponent },
-  { path: 'farms', component: FarmsContainerComponent},
-  { path: 'trade', component: SectionTradeNowComponent}
 
 ];
 
