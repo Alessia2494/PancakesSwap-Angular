@@ -105,7 +105,7 @@ export class NavbarComponent implements OnInit {
  earns:earn[] = [
   {
     earn: "Farms",
-    link: 'farms'
+    link: 'child/farms'
   },
   {
     earn: "Forms"
