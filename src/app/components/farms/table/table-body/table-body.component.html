@@ -5,8 +5,11 @@
                 <ng-container *ngIf="tableStatistic$ | async as statistics">
                     <tr *ngFor="let statistic of statistics">
                         <td>
-                            <div class="data-container" id="title">
-                                {{ statistic.title | uppercase}}
+                            <div class="data-container token-container" id="title">
+                                <div class="svg-container">
+                                    <img class="token" src="{{ statistic.token }}" alt="">
+                                </div>
+                                <div class="title-container">{{ statistic.title | uppercase}}</div>
                             </div>
                         </td>
                         <td>
@@ -25,7 +28,7 @@
                             <div class="data-container">
                                 <div class="data-title">Liquidity</div>
                                 <div class="data-value">{{ statistic.liquidity }}</div>
-                                
+
                             </div>
                         </td>
                         <td>

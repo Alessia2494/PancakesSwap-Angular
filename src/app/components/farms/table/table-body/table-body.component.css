@@ -29,6 +29,17 @@ tr {
     flex-direction: column;
 }
 
+.token-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.token {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
 #title {
     padding-left: 32px;
 }

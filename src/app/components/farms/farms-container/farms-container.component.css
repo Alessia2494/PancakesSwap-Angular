@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -15,6 +20,11 @@
 
 .link a {
     text-decoration: none;
+    color: rgb(122, 110, 170);
+}
+
+.link:hover {
+    background-color: rgba(203, 235, 225, 0.247);
 }
 
 button {
@@ -31,8 +41,12 @@ button svg {
 }
 
 .heading {
-    padding: 32px 24px;
-    background-color: #E7FBFF;
+    padding: 32px 63px;
+    background: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);
+}
+
+.title-container {
+    margin: 0 10vw;
 }
 
 h1 {
