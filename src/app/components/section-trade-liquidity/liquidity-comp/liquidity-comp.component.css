@@ -1,0 +1,92 @@
+.containerliqcent {
+    width: 434px;
+    margin: auto;
+    padding-top: 25px;
+}
+.liq-container {
+    height: 100px;
+    width: 434px;
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.altro-container {
+    filter: drop-shadow(rgba(25, 19, 38, 0.15) 0px 1px 4px);
+    width: 434px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    height: 169px;
+}
+.secondo-container{
+    /*background-color: aqua;*/
+    height: 72px;
+}
+.titolo {
+    /*background-color: chartreuse;*/
+    width: 250px;
+    color: rgb(40, 13, 95);
+    margin-bottom: 8px;
+}
+.sottotitolo {
+    /*background-color: darkmagenta;*/
+    width: 270px;
+    color: rgb(122, 110, 170);
+}
+.imgprimaparte {
+    width: 23px;
+    height: 23px;
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 810px;
+    align-self: center;
+}
+.impostazioni, .timereverse {
+    width: 23px;
+    height: 23px;
+}
+.impostazioni {
+    margin-right: 8px;
+}
+.timereverse {
+    margin-left:16px;
+}
+.impostazioni:hover , .timereverse:hover{
+    opacity: 0.6;
+
+}
+.btnliquidity {
+    border:none;
+    background-color: transparent;
+    width: 23px;
+    height: 23px;
+}
+.prova3 {
+    display: flex;
+    flex-direction: row;
+}
+.spacecenter {
+    height: 72px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(122, 110, 170);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.buttonaddliq {
+    /*background-color: chocolate;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.btn {
+    width: 386px;
+}

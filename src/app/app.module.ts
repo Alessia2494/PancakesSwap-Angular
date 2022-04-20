@@ -26,6 +26,8 @@ import { ContainerHomeComponent } from './pages/container-home/container-home.co
 import { FarmsContainerComponent } from './components/farms/farms-container/farms-container.component';
 import { TableBodyComponent } from './components/farms/table/table-body/table-body.component';
 import { SectionTradeNowComponent } from './components/section-trade-now/section-trade-now.component';
+import { SectionTradeLiquidityComponent } from './components/section-trade-liquidity/section-trade-liquidity.component';
+import { LiquidityCompComponent } from './components/section-trade-liquidity/liquidity-comp/liquidity-comp.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,9 @@ import { SectionTradeNowComponent } from './components/section-trade-now/section
     FarmsContainerComponent,
     TableBodyComponent,
     SectionTradeNowComponent,
+    SectionTradeLiquidityComponent,
+    LiquidityCompComponent,
+    
   ],
   imports: [
     BrowserModule,
