@@ -23,6 +23,7 @@
     width: 256px;
     position: absolute;
     z-index: 1;
+    animation: img-5001 3s ease-in-out 1s infinite normal;
 }
 
 .pancake-2 {
@@ -30,6 +31,7 @@
     width: 256px;
     position: absolute;
     z-index: 1;
+    animation: img-5002 3s ease-in-out 1s infinite normal;
 }
 
 .pancake-3 {
@@ -37,6 +39,7 @@
     width: 256px;
     position: absolute;
     z-index: 0;
+    animation: img-5003 3s ease-in-out 1s infinite normal;
 }
 
 .pancake-container-2 {
@@ -50,6 +53,7 @@
     width: 256px;
     position: absolute;
     z-index: 0;
+    animation: img-5004 3s ease-in-out 1s infinite normal;
 }
 
 .pancake-5 {
@@ -57,6 +61,7 @@
     width: 256px;
     position: absolute;
     z-index: 1;
+    animation: img-5005 3s ease-in-out 1s infinite normal;
 }
 
 .pancake-6 {
@@ -64,7 +69,81 @@
     width: 256px;
     position: absolute;
     z-index: 0;
+    animation: img-5006 3s ease-in-out 1s infinite normal;
 }
+
+@keyframes img-5001 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 17px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes img-5002 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 19px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes img-5003 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 21px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes img-5004 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 18px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes img-5005 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 16px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes img-5006 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(7px, 21px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
 
 @media screen and (max-width: 850px) {
     .pancake-1, .pancake-2, .pancake-3, .pancake-4, .pancake-5, .pancake-6, .pancake-container-1, .pancake-container-2 {
