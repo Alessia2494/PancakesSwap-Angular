@@ -28,6 +28,8 @@ import { TableBodyComponent } from './components/farms/table/table-body/table-bo
 import { SectionTradeNowComponent } from './components/section-trade-now/section-trade-now.component';
 import { SectionTradeLiquidityComponent } from './components/section-trade-liquidity/section-trade-liquidity.component';
 import { LiquidityCompComponent } from './components/section-trade-liquidity/liquidity-comp/liquidity-comp.component';
+import { PoolsComponent } from './pools/pools.component';
+import { TablePoolsComponent } from './table-pools/table-pools.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +60,8 @@ import { LiquidityCompComponent } from './components/section-trade-liquidity/liq
     SectionTradeNowComponent,
     SectionTradeLiquidityComponent,
     LiquidityCompComponent,
+    PoolsComponent,
+    TablePoolsComponent,
     
   ],
   imports: [
