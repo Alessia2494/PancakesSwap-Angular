@@ -29,7 +29,7 @@ import { SectionTradeNowComponent } from './components/section-trade-now/section
 import { SectionTradeLiquidityComponent } from './components/section-trade-liquidity/section-trade-liquidity.component';
 import { LiquidityCompComponent } from './components/section-trade-liquidity/liquidity-comp/liquidity-comp.component';
 import { PoolsComponent } from './pools/pools.component';
-import { TablePoolsComponent } from './table-pools/table-pools.component';
+import { ChildRoutingModule } from './child-route-module/child-routing.module';
 
 @NgModule({
   declarations: [
@@ -60,13 +60,12 @@ import { TablePoolsComponent } from './table-pools/table-pools.component';
     SectionTradeNowComponent,
     SectionTradeLiquidityComponent,
     LiquidityCompComponent,
-    PoolsComponent,
-    TablePoolsComponent,
-    
+    PoolsComponent    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ChildRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

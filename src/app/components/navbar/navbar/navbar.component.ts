@@ -111,7 +111,8 @@ export class NavbarComponent implements OnInit {
     earn: "Forms"
   },
   {
-    earn: "Pools"
+    earn: "Pools",
+    link: 'child/pools'
   }
  ]
  wins:win[] = [
