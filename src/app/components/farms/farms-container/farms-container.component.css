@@ -15,7 +15,11 @@
 
 .link {
     margin-right: 20px;
-    padding: 10px;
+    padding: 6px;
+}
+
+.link-active {
+    border-bottom: 4px solid #1FC7D4 !important;
 }
 
 .link a {
