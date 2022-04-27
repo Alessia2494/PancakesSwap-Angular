@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { ContainerHomeComponent } from './pages/container-home/container-home.component';
+import { ContainerHomeComponent } from './components/pages/container-home/container-home.component';
 
 
 const ChildModule = () =>

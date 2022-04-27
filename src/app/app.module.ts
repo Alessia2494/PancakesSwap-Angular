@@ -22,7 +22,7 @@ import { Sec3AssetsComponent} from './components/section-3/sec3-assets/sec3-asse
 import { Sec3ContainerComponent } from './components/section-3/sec3-container/sec3-container.component';
 import { Sec3ContentComponent } from './components/section-3/sec3-content/sec3-content.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ContainerHomeComponent } from './pages/container-home/container-home.component';
+import { ContainerHomeComponent } from './components/pages/container-home/container-home.component';
 import { FarmsContainerComponent } from './components/farms/farms-container/farms-container.component';
 import { TableBodyComponent } from './components/farms/table/table-body/table-body.component';
 import { SectionTradeNowComponent } from './components/section-trade-now/section-trade-now.component';
