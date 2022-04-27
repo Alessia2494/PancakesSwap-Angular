@@ -30,6 +30,7 @@ import { SectionTradeLiquidityComponent } from './components/section-trade-liqui
 import { LiquidityCompComponent } from './components/section-trade-liquidity/liquidity-comp/liquidity-comp.component';
 import { PoolsComponent } from './pools/pools.component';
 import { ChildRoutingModule } from './child-route-module/child-routing.module';
+import { EarnNavComponent } from './components/farms/layout/earn-nav/earn-nav.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { ChildRoutingModule } from './child-route-module/child-routing.module';
     SectionTradeNowComponent,
     SectionTradeLiquidityComponent,
     LiquidityCompComponent,
-    PoolsComponent    
+    PoolsComponent,
+    EarnNavComponent    
   ],
   imports: [
     BrowserModule,
