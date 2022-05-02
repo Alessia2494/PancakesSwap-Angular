@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { language, trade, earn, win, nft, other, another } from 'src/app/models/modelNavbar';
+import { modalService } from 'src/app/services/modal/modal.service';
 
 @Component({
   selector: 'app-navbar',
@@ -158,9 +159,13 @@ export class NavbarComponent implements OnInit {
     img: "assets/home_img/exit-img.png"
   }
  ]
-  constructor() { }
+  constructor(private modal : modalService) { }
 
   ngOnInit(): void {
+  }
+
+  modalOn(){
+    this.modal.setModal(true);
   }
 
 }
