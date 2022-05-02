@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { modalService } from 'src/app/services/modal/modal.service';
 
 @Component({
   selector: 'app-section-trade-now',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionTradeNowComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modal: modalService) { }
 
   ngOnInit(): void {
+  }
+
+  modalOn(){
+    this.modal.setModal(true);
   }
 
 }
