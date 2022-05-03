@@ -90,7 +90,8 @@
 }
 
 .sx{
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width:550px){
@@ -105,10 +106,7 @@
     background-color: white;
     height: 55px;
 }
-.sx {
-   position:absolute;
-   padding-left: 200px;
-}
+
 .dx {
     float:right;
     margin-right: 10px;
@@ -129,9 +127,6 @@
     color: rgb(122, 110, 170);
 }
 
-.logo1_bunnyH {
-    margin: 10px 5px;
-}
 .leaderboard {
     border-top: 1px solid rgb(205, 208, 209);
     border-bottom: 1px solid rgb(205, 208, 209);
