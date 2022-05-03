@@ -28,7 +28,7 @@ import { TableBodyComponent } from './components/farms/table/table-body/table-bo
 import { SectionTradeNowComponent } from './components/section-trade-now/section-trade-now.component';
 import { SectionTradeLiquidityComponent } from './components/section-trade-liquidity/section-trade-liquidity.component';
 import { LiquidityCompComponent } from './components/section-trade-liquidity/liquidity-comp/liquidity-comp.component';
-import { PoolsComponent } from './pools/pools.component';
+import { PoolsComponent } from './components/pools/pools.component';
 import { ChildRoutingModule } from './child-route-module/child-routing.module';
 import { EarnNavComponent } from './components/farms/layout/earn-nav/earn-nav.component';
 import { WalletComponent } from './components/wallet/wallet.component';
