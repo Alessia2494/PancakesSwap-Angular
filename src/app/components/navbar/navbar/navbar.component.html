@@ -1,7 +1,9 @@
 <div class="navbar">
-    
+
     <div class="sx">
-        <div class="logo1_bunnyHs"><a href="#" routerLink="home"><img src="assets/home_img/logo_scritta.png" class="logo1_bunnyH"></a></div>
+        <div class="logo1_bunnyHs">
+            <a href="#" routerLink="home"><img src="assets/home_img/logo_scritta.png" class="logo1_bunnyH"></a>
+        </div>
         <div class="dropdown">
             <button class="dropbtn" routerLink="/child/trade">
                 Trade
@@ -34,7 +36,7 @@
                 NFT
             </button>
             <div class="dropdown-content">
-                <a href="#"*ngFor="let nft of nfts;">{{ nft.nft}}</a>
+                <a href="#" *ngFor="let nft of nfts;">{{ nft.nft}}</a>
             </div>
         </div>
         <!--link5-->
@@ -45,13 +47,15 @@
             <div class="dropdown-content">
                 <a href="#" *ngFor="let other of others;">{{ other.other}}</a>
                 <a href="#" class="leaderboard">Leaderboard</a>
-                <a href="#" *ngFor="let another of anothers;">{{ another.another}} <img src="{{ another.img }}" class="exit_img" /></a>
+                <a href="#" *ngFor="let another of anothers;">{{ another.another}} <img src="{{ another.img }}"
+                        class="exit_img" /></a>
             </div>
         </div>
 
     </div>
     <div class="dx">
-        <div class="prova proval"><a routerLink="home"><img src="assets/home_img/logo1_blue.png" class="logo1_blue" /></a></div>
+        <div class="prova proval"><a routerLink="home"><img src="assets/home_img/logo1_blue.png"
+                    class="logo1_blue" /></a></div>
         <div class="change-num"><a href="#">
                 <p>$7.545</p>
             </a></div>

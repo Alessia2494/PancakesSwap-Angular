@@ -96,7 +96,7 @@
 
 @media screen and (max-width:550px){
 
-    .sx a{
+    .sx .dropdown{
         display:none;
     }
 
@@ -165,7 +165,7 @@
     padding:0px;
 }
 /*media 500*/
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .flex-container {
         display:flex;
         flex-direction: column;
@@ -179,7 +179,7 @@
         width: 50px;
         overflow:hidden;
     }
-    .sx {
+    .sx .dropdown {
        /* width:10px; */
        display: none;
        overflow:hidden;
