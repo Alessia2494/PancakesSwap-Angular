@@ -1,49 +1,97 @@
-#img1 {
-  z-index: 3;
-  position: absolute;
-}
-
-#img2 {
-  z-index: 2;
-  position: relative;
-}
-
-#img3 {
+#bnb {
   z-index: 1;
   position: relative;
-  bottom: 480px;
-  left: 45px;
-  max-width: 450px;
+  max-width: 550px;
+  right: 20px;
+  bottom: 50px;
 }
 
-@keyframes img512 {
-  0% {width: 512px; height: 512px;}
-  50% {width: 507px; height: 507px;}
-  100% {width: 512px; height: 512px;}
+#btc {
+  z-index: 2;
+  position: relative;
+  max-width: 550px;
+  right: 0px;
+  bottom: 600px;
+
 }
 
-@keyframes img450 {
-  0% {width: 450px; height: 450px;}
-  50% {width: 445px; height: 445px;}
-  100% {width: 450px; height: 450px;}
+#cake {
+  z-index: 3;
+  max-width: 550px;
+  position: relative;
+  right: 0px;
+  bottom: 1130px;
+
+}
+.pictures {
+  max-width: 500px;
+  max-height: 428px;
+  box-sizing: border-box;
 }
 
-.animation512 {
-  animation: img512 2s infinite linear both;
+.pictures {
+  max-height: 100px;
 }
-.animation450 {
-  animation: img450 5s infinite linear both;
+
+@keyframes img550-1 {
+  0% {width: 550px; height: 549px;}
+  50% {width: 545px; height: 544px;}
+  100% {width: 550px; height: 549px;}
+}
+@keyframes img550-2 {
+  0% {width: 550px; height: 536px;}
+  50% {width: 545px; height: 531px;}
+  100% {width: 550px; height: 536px;}
+}
+@keyframes img550-3 {
+  0% {width: 550px; height: 570px;}
+  50% {width: 545px; height: 565px;}
+  100% {width: 550px; height: 570px;}
+}
+.animation5501 {
+
+  animation: img550-1 2s infinite linear both;
+
+}
+.animation5502 {
+
+  animation: img550-2 5s infinite linear both;
+
+}
+.animation5503 {
+
+  animation: img550-3 2.5s infinite linear both;
+
 }
 
 @media screen and (max-width: 768px) {
-  #img3 {
-    z-index: 1;
-    position: relative;
-    bottom: 0;
-    left: -190px;
-    max-width: 450px;
+  .pictures {
+      max-width: 100%;
+      position: relative;
+      right: 50px;
+      max-height: 100px;
+  }
+  
+  #bnb, #btc, #cake {
+      max-width: 200px;
+      max-height: 200px;
+      position: absolute;
   }
 
+  #bnb{
+    bottom: 0;
+    top: 10px;
+  }
+
+  #btc {
+      bottom: 0;
+      top: 10px;
+  }
+
+  #cake {
+      bottom: 0;
+      top: 10px;
+  }
   @keyframes img512 {
       0% {
           width: 200px;
@@ -77,14 +125,70 @@
           height: 200px;
       }
   }
-}
 
-@media screen and (max-width: 420px) {
-  #img3 {
-    z-index: 1;
-    position: relative;
-    bottom: 200px;
-    left: 0px;
-    max-width: 450px;
+  @keyframes img550-1 {
+      0% {
+          width: 200px;
+          height: 200px;
+      }
+
+      50% {
+          width: 190px;
+          height: 190px;
+      }
+
+      100% {
+          width: 200px;
+          height: 200px;
+      }
+  }
+
+  @keyframes img550-2 {
+      0% {
+          width: 200px;
+          height: 200px;
+      }
+
+      50% {
+          width: 190px;
+          height: 190px;
+      }
+
+      100% {
+          width: 200px;
+          height: 200px;
+      }
+  }
+
+  @keyframes img550-3 {
+      0% {
+          width: 200px;
+          height: 200px;
+      }
+
+      50% {
+          width: 190px;
+          height: 190px;
+      }
+
+      100% {
+          width: 200px;
+          height: 200px;
+      }
+  }
+  .animation5501 {
+
+      animation: img550-1 2s infinite linear both;
+  
+  }
+  .animation5502 {
+  
+      animation: img550-2 5s infinite linear both;
+  
+  }
+  .animation5503 {
+  
+      animation: img550-3 2.5s infinite linear both;
+  
   }
 }
