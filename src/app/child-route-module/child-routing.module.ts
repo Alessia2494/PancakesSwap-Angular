@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'farms', component: FarmsContainerComponent},
   { path: 'pools', component: PoolsComponent},
   { path: 'trade', component: SectionTradeNowComponent},
-  { path: 'liquidity', component:SectionTradeLiquidityComponent}
+  { path: 'liquidity', component:SectionTradeLiquidityComponent},
+  { path: 'explore', component: FarmsContainerComponent}
 ]
 
 @NgModule({
