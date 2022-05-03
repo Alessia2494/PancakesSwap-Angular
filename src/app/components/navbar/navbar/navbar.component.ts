@@ -100,7 +100,8 @@ export class NavbarComponent implements OnInit {
      trade: "Exchange"
    },
    {
-    trade: "Liquidity"
+    trade: "Liquidity",
+    link: 'child/liquidity'
   },
  ]
  earns:earn[] = [

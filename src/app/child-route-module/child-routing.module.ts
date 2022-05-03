@@ -4,12 +4,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { FarmsContainerComponent } from '../components/farms/farms-container/farms-container.component';
 import { SectionTradeNowComponent } from '../components/section-trade-now/section-trade-now.component';
 import { PoolsComponent } from '../pools/pools.component';
+import { LiquidityCompComponent } from '../components/section-trade-liquidity/liquidity-comp/liquidity-comp.component';
 
 const routes: Routes = [
   /*scrivere rotte child*/
   { path: 'farms', component: FarmsContainerComponent},
   { path: 'pools', component: PoolsComponent},
   { path: 'trade', component: SectionTradeNowComponent},
+  { path: 'liquidity', component: LiquidityCompComponent}
 ]
 
 @NgModule({

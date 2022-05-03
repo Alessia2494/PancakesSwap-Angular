@@ -9,7 +9,7 @@
                 Trade
             </button>
             <div class="dropdown-content">
-                <a href="#" *ngFor="let trade of trades;">{{ trade.trade }}</a>
+                <a *ngFor="let trade of trades;" [routerLink]="trade.link">{{ trade.trade }}</a>
             </div>
         </div>
         <!--link2-->

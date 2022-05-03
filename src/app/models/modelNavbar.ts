@@ -3,6 +3,7 @@ export interface language {
 }
 export interface trade {
     trade: string;
+    link?: string
 }
 export interface earn {
     earn:string;
