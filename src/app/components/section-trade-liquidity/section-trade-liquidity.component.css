@@ -35,10 +35,10 @@
 }
 .exitbtn {
     border:none;
-    background-image: url(/src/assets/liquiditynav/exitliq.png);
+    background-image: url(/assets/liquiditynav/exitliq.png);
     width: 16px;
     height: 16px;
-    margin: 0px 0px 0px 5px;
+    margin: 5px 0px 0px 5px;
     position:absolute;
 }
 .bgliquidity {
