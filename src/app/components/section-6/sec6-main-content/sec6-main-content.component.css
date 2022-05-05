@@ -75,8 +75,7 @@ img {
 @media screen and (min-width: 850px) {
     .sec6-img {
         max-width: 400px;
-        max-height: 400px;
-        
+        max-height: 360px; 
     }
 
     #img-bottom-right {
