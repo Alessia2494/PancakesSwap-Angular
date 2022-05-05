@@ -177,3 +177,52 @@
     }
 }
 
+@media (max-width: 400px) { 
+    .animation {
+        position:absolute;
+        top: -10px;
+        padding-top:40px;
+        right:230px;
+        
+    }
+    .lunar-bunny {
+        padding-top: 40px;
+        padding-right:30px;
+        width: 182px;
+        height: 182px;
+        animation: imganim4 3.5s infinite linear both;
+    }
+    .star-l {
+        padding-top: 50px;
+        animation: imganim 2s infinite linear both;
+    }
+    .star-r {
+        padding-top: 50px;
+        animation: imganim2 5s infinite linear both;
+    }
+    .star-top-r {
+        padding-top: 50px;
+        animation: imganim3 2.5s infinite linear both;
+    }
+    @keyframes imganim {
+        0% {width: 182px; height: 182px; opacity: 1}
+        50% {width: 172px; height: 172px; opacity: 0}
+        100% {width: 182px; height: 182px; opacity:1}
+    }
+    @keyframes imganim2 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim3 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim4 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+}
+

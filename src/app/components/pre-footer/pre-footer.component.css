@@ -13,6 +13,14 @@
     width: 80vh;
 }
 
+.subtitle {
+    text-align: center;
+}
+
+.decoration-link, button {
+    margin-top: 24px;
+}
+
 .pancake-container-1 {
     height: 256px;
     width: 256px;

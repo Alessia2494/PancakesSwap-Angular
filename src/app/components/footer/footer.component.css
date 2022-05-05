@@ -40,8 +40,7 @@
 .cont3-foot {
     display: flex;
     justify-content: space-between;
-    height: 3rem;
-    margin-top: 30px;
+    height: 6rem;
     align-items: center;
 }
 
@@ -71,6 +70,10 @@
 
 .mini-svg {
     margin: 10px;
+}
+
+.svg-cont {
+    display: flex;
 }
 
 .icon-svg {
@@ -105,6 +108,7 @@
 
     .svg-format2 {
         display: block;
+        margin-bottom: 20px;
     }
 
     .foot-subcont1 {
@@ -117,9 +121,9 @@
         margin-bottom: 30px;
         justify-content: space-between;
     }
-
+/* 
     #svg-value {
         margin-right: 260px;
-    }
+    } */
 
 }
