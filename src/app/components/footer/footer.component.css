@@ -1,3 +1,10 @@
+@import "../navbar/navbar/navbar.component.css";
+
+.dropdown-content {
+    bottom: 70px;
+    position: fixed;
+}
+
 .footer-container {
     display: flex;
     justify-content: center;

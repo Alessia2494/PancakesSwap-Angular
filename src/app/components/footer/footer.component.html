@@ -43,13 +43,16 @@
         <div class="cont3-foot">
 
             <div class="foot-subcont1">
-                <select>
-                    <option value="en">English</option>
-                    <option value="it">Italiano</option>
-                    <option value="es">Espanol</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Francais</option>
-                </select>
+                <div class="dropdown">
+                    <div class="prova">
+                        <button class="dropbtn">
+                            <img src="assets/home_img/world.png" class="world" />
+                        </button>
+                    </div>
+                    <div class="dropdown-content dropdown-scrollbar">
+                        <a href="#" *ngFor="let language of languages;">{{ language.linguage}}</a>
+                    </div>
+                </div>
             </div>
 
             <div class="foot-subcont2">
