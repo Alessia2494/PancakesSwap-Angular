@@ -3,6 +3,7 @@
 /*thypography*/
 body {
     margin: 0;
+    padding-top: 0;
 }
 :root {
     font-family: 'Kanit', sans-serif;
