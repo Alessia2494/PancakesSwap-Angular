@@ -31,3 +31,12 @@
 .text-page h3 {
     margin:0px 0px 10px 0px;
 }
+@media (max-width: 400px) {
+    .pagen-container {
+        height: 600px;
+    }
+    .bunnypancake {
+        padding-top: 200px;
+        margin: 0px;
+    }
+}
