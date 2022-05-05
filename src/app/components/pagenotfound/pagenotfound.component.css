@@ -1,0 +1,33 @@
+.pagen-container {
+    /*background-color: aqua;*/
+    background-color: rgb(238 234 244);
+    width: 100vw;
+    height: 100vh;
+}
+.container-position {
+    display: flex;
+    justify-content: center;
+}
+.bunnybox {
+    /*background-color: brown;*/
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.bunnypancake {
+    padding-top: 280px;
+    margin: 0px;
+}
+.text-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-page h1 {
+    margin:0px;
+}
+.text-page h3 {
+    margin:0px 0px 10px 0px;
+}

@@ -32,6 +32,7 @@ import { PoolsComponent } from './components/pools/pools.component';
 import { ChildRoutingModule } from './child-route-module/child-routing.module';
 import { EarnNavComponent } from './components/farms/layout/earn-nav/earn-nav.component';
 import { WalletComponent } from './components/wallet/wallet.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { WalletComponent } from './components/wallet/wallet.component';
     LiquidityCompComponent,
     PoolsComponent,
     EarnNavComponent,
-    WalletComponent    
+    WalletComponent,
+    PagenotfoundComponent    
   ],
   imports: [
     BrowserModule,
