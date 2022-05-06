@@ -79,17 +79,17 @@ img {
     }
 
     #img-bottom-right {
-        bottom: 1180px;
+        bottom: 1100px;
     }
 
     #img-top-left {
-        bottom: 385px;
-        right: 10px;
+        bottom: 370px;
+        right: 7px;
     }
 
     #img-top-right {
-        bottom: 800px;
-        right: 10px;
+        bottom: 735px;
+        right: 0px;
     }
 }
 

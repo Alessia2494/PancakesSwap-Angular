@@ -4,15 +4,21 @@
     background: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
     border: solid 1px #3c1786;
     box-shadow: 2px 7px #3c1786;
-    transform: rotate(2deg);
     margin: 12px;
     color: #FFF;
+    position: relative;
+}
+
+@media screen and (min-width: 850px) {
+    .minicard-indigo {
+        transform: rotate(2deg);
+    }
 }
 
 .card-text-container {
     display: flex;
     flex-direction: column;
-    margin: 50px 20px;
+    margin: 50px 20px 35px 20px;
 }
 
 .card-text-container .pre-title {

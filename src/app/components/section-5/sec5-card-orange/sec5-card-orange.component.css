@@ -4,14 +4,20 @@
     background: linear-gradient(rgb(255, 178, 55) 0%, rgb(255, 205, 81) 51.17%, rgb(255, 231, 106) 100%);
     border: solid 1px #ffb337;
     box-shadow: 2px 7px #ffb237;
-    transform: rotate(-4deg);
     margin: 12px;
+    position: relative
+}
+
+@media screen and (min-width: 850px) {
+    .minicard-orange {
+        transform: rotate(-4deg);
+    }
 }
 
 .card-text-container {
     display: flex;
     flex-direction: column;
-    margin: 50px 20px;
+    margin: 50px 20px 35px 20px;
 }
 
 .card-text-container .pre-title {
@@ -20,8 +26,8 @@
 
 .card-icon {
     position: absolute;
-    right: 6%;
-    top: 6%;
+    left: 80%;
+    top: 7%;
     padding: 0;
 }
 

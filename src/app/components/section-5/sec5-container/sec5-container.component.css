@@ -7,7 +7,7 @@
 
 .content-container {
     background: rgba(255, 255, 255, 0.6);
-    padding: 16px;
+    padding: 16px 16px 40px 16px;
     border: 1px solid rgb(231, 227, 235);
     border-radius: 72px;
     width: 100%;
