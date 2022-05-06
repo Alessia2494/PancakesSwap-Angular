@@ -26,9 +26,12 @@ button svg {
     background: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);
 }
 
-.title-container {
-    margin: 0 10vw;
+@media screen and (min-width: 960px) {
+   .heading {
+    padding: 32px 10vw;
+} 
 }
+
 
 h1 {
     font-size: 64px;
@@ -38,4 +41,125 @@ h1 {
 
 .table-container {
     padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
 }
+
+.table-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    flex-flow: row wrap;
+}
+
+@media screen and (max-width: 860px) {
+    .table-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media screen and (min-width: 1380px) {
+    .table-nav {
+        margin: 0 120px;
+    }
+}
+
+.left-cont {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.left-cont > div {
+    margin-right: 18px;
+}
+
+.svg-cont {
+    display: flex;
+}
+
+.svg-left {
+    fill: rgb(189, 194, 196);
+    align-self: center;
+    margin-right: 5px;
+}
+
+.svg-right {
+   fill: rgb(31, 199, 212);
+   margin-right: 8px;
+}
+
+.switch-container {
+    background-color: rgb(238, 234, 244);;
+    border-radius: 16px;
+    display: inline-flex;
+    border: 1px solid rgb(233, 234, 235);
+    width: auto;
+}
+
+.buttons-container {
+    flex: 1 1 auto;
+    border-radius: 16px;
+}
+
+.switch-buttons {
+    height: 32px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 16px; 
+    background-color: rgb(122, 110, 170); 
+    padding: 0 16px;
+    color: #FFFF;
+}
+
+.finished {
+    background-color: transparent;
+    color: rgb(122, 110, 170);
+    border-radius: 0;
+    border: 0; 
+}
+
+.checkbox-cont div {
+    margin-right: 15px;
+}
+
+.right-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-cont > div {
+    min-width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+.table-nav {
+    padding-left: 0;
+}
+
+.right-cont > div {
+    min-width: 150px;
+}
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 16px;
+    box-shadow: rgb(74 74 104 / 10%) 0px 2px 2px -1px inset;
+    border: 1px solid rgb(215, 202, 236);
+    border-radius: 16px;
+    background: rgb(238, 234, 244);
+}
+
+.search-cont {
+    margin-left: 16px;
+}
+
+
+
+
