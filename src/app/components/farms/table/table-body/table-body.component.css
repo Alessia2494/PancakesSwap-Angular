@@ -32,20 +32,30 @@ tr {
 .token-container {
     display: flex;
     flex-direction: row;
+    padding-left: 32px;
+    position: relative;
 }
 
 .token {
     width: 24px;
     height: 24px;
     margin-right: 8px;
+    position: relative;
+    z-index: 2;
 }
 
-.token-container {
-    padding-left: 32px;
+.back-token {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 25px;
+    top: 18px;
+    z-index: 0;
 }
 
 .data-title {
     color: rgb(122, 110, 170);
+    font-size: 12px;
 }
 
 .data-value {
@@ -57,6 +67,13 @@ tr {
     color:rgb(189, 194, 196)
 }
 
+.liquidity {
+    min-width: 100px;
+}
+
+.multiplier {
+    width: 36px;
+}
 .details-cont {
     padding: 24px 32px 24px 0;
     display: flex;

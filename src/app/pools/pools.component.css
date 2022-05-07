@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+button svg {
+    fill: rgb(31, 199, 212);
+    margin-left: 5px;
+}
+
+.heading {
+    padding: 32px 63px;
+    background: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);
+}
+
+.title-container {
+    margin: 0 10vw;
+}
+
+h1 {
+    font-size: 64px;
+    color: rgb(118, 69, 217);
+    margin: 0 0 24px;
+}
+
+.table-container {
+    padding: 32px 24px;
+}

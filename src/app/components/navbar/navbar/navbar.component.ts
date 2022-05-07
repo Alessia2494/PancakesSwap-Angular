@@ -109,9 +109,9 @@ export class NavbarComponent implements OnInit {
     earn: "Farms",
     link: 'child/farms'
   },
-  {
-    earn: "Forms"
-  },
+  // {
+  //   earn: "Forms"
+  // },
   {
     earn: "Pools",
     link: 'child/pools'

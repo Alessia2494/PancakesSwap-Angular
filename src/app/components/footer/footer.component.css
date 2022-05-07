@@ -8,7 +8,7 @@
 .footer-container {
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
@@ -95,6 +95,11 @@
 }
 
 @media screen and (max-width: 575px) {
+    .footer-container {
+        justify-content: flex-start;
+        padding: 30px 12px;
+    }
+
     .cont1-foot {
         flex-direction: column;
         order: 2;
@@ -128,9 +133,5 @@
         margin-bottom: 30px;
         justify-content: space-between;
     }
-/* 
-    #svg-value {
-        margin-right: 260px;
-    } */
 
 }
