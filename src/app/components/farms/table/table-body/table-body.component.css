@@ -11,7 +11,7 @@
     margin: 16px 0px;
 }
 
-table{
+table {
     margin: 0;
     border-collapse: collapse;
     margin-left: auto;
@@ -32,22 +32,89 @@ tr {
 .token-container {
     display: flex;
     flex-direction: row;
+    padding-left: 32px;
+    position: relative;
 }
 
 .token {
     width: 24px;
     height: 24px;
     margin-right: 8px;
+    position: relative;
+    z-index: 2;
 }
 
-#title {
-    padding-left: 32px;
+.back-token {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 25px;
+    top: 18px;
+    z-index: 0;
 }
 
 .data-title {
     color: rgb(122, 110, 170);
+    font-size: 12px;
 }
 
 .data-value {
     color:rgb(40, 13, 95);
+    display: flex;
+}
+
+#earned .data-value {
+    color:rgb(189, 194, 196)
+}
+
+.liquidity {
+    min-width: 100px;
+}
+
+.multiplier {
+    width: 36px;
+}
+.details-cont {
+    padding: 24px 32px 24px 0;
+    display: flex;
+}
+
+.arrow {
+    fill: rgb(31, 199, 212)
+}
+
+.text {
+    display: none;
+}
+
+.calc-svg, .quotation-svg {
+    margin-left: 4px;
+    fill: rgba(97, 97, 98, 0.783);;
+}
+
+@media screen and (max-width: 960px) {
+    #liquidity, #multiplier {
+        display: none;
+    }
+    
+    .text {
+        display: inline-block;
+        color: rgb(31, 199, 212);
+    }
+    .quotation-svg, .calc-svg {
+        display: none;
+    }
+}
+@media screen and (max-width: 580px) {
+    #earned {
+        display: none;
+    }
+
+    .data-container {
+        padding-right: 10px;
+    }
+
+    .token-container {
+        padding-left: 10px;
+    }
 }
