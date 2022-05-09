@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { TableData } from 'src/app/models/TableData';
-import { FarmsService } from '../../farms.service';
+import { FarmsService } from '../../../../services/farms.service';
 
 @Component({
   selector: 'app-table-body',

@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { FarmsContainerComponent } from '../components/farms/farms-container/farms-container.component';
-import { SectionTradeNowComponent } from '../components/section-trade-now/section-trade-now.component';
-import { PoolsComponent } from '../components/pools/pools.component';
-import { SectionTradeLiquidityComponent } from '../components/section-trade-liquidity/section-trade-liquidity.component';
+import { FarmsContainerComponent } from '../other-pages/farms/farms-container/farms-container.component';
+import { SectionTradeNowComponent } from '../other-pages/section-trade-now/section-trade-now.component';
+import { SectionTradeLiquidityComponent } from '../other-pages/section-trade-liquidity/section-trade-liquidity.component';
+import { PoolsComponent } from '../other-pages/pools/pools.component';
 
 const routes: Routes = [
   /*scrivere rotte child*/

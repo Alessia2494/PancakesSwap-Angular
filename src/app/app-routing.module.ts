@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { ContainerHomeComponent } from './components/pages/container-home/container-home.component';
-import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
-
+import { ContainerHomeComponent } from './homepage/pages/container-home/container-home.component';
+import { PagenotfoundComponent } from './layout/pagenotfound/pagenotfound.component';
 
 const ChildModule = () =>
   import('./child-route-module/child.module').then((m) => m.ChildModule);
