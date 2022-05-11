@@ -1,0 +1,86 @@
+.detContainer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 195px;
+    /*background-color: lightblue;*/
+    padding:15px;
+}
+.singCont{
+    display: flex;
+    /*background-color: lightcoral;*/
+    padding:20px;
+}
+.textLightBlue{
+    display: flex;
+    flex-direction: column;
+    /*background-color: lightgoldenrodyellow;*/
+}
+.textLightBlue p {
+    padding:2px;
+}
+.imgcore {
+    padding-top: 15px;
+    margin-left: 2px;
+}
+.cakeEarned{
+    display: flex;
+    flex-direction: row;
+    /*background-color: lightpink;*/
+    padding: 15px;
+    margin: 20px 45px 0px 100px;
+    border: 2px solid rgb(230, 223, 239);
+    border-radius: 20px;
+    width: 390px;
+    height: 100px;
+}
+.exit {
+    padding-left: 5px;
+}
+.numbCake {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 20px 0px 5px;
+}
+.numbCake p {
+    font-size: 11px;
+    font-weight: bold;
+}
+.numbCake .zero {
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+}
+.btnHarv{
+    display: flex;
+    align-items: center;
+    padding: 35px 5px 10px 150px;
+}
+.harvest{
+    border:none;
+    border-radius: 10px;
+    width: 95px;
+    height: 40px;
+    font-weight: bold;
+    color:rgb(189, 194, 196);
+    background-color: rgb(233, 234, 235);
+    font-size: 15px;
+}
+.startFarming{
+    display: flex;
+    flex-direction: column;
+    /*background-color: lightpink;*/
+    margin-top:20px;
+    padding: 15px;
+    border: 2px solid rgb(230, 223, 239);
+    border-radius: 20px;
+    width: 390px;
+    height: 100px;
+}
+.startFarming p {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.btnC{
+    margin-top:5px;
+}
