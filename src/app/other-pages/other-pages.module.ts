@@ -8,6 +8,7 @@ import { LiquidityCompComponent } from './section-trade-liquidity/liquidity-comp
 import { FarmsContainerComponent } from './farms/farms-container/farms-container.component';
 import { EarnNavComponent } from './farms/layout/earn-nav/earn-nav.component';
 import { TableBodyComponent } from './farms/table/table-body/table-body.component';
+import { DetailCompComponent } from './detail-comp/detail-comp.component';
 
 
 
@@ -19,7 +20,8 @@ import { TableBodyComponent } from './farms/table/table-body/table-body.componen
     SectionTradeNowComponent,
     FarmsContainerComponent,
     EarnNavComponent,
-    TableBodyComponent
+    TableBodyComponent,
+    DetailCompComponent
 
   ],
   imports: [
